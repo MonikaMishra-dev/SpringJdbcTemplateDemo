@@ -24,7 +24,7 @@ public class SpringjdbcApplication {
             System.out.println("All Students:");
             studentDao.listStudents().forEach(System.out::println);
             studentDao.updateStudent(new Student(3,"Ashutosh",35));
-            studentDao.deleteStudent(1);
+//            studentDao.deleteStudent(1);
         };
     }
 }
